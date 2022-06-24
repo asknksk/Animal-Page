@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: coral;
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 2rem;
+}
+img {
+  max-height: 12rem;
+  border-radius: 50%;
+  border: 1rem solid rgb(45, 196, 223);
+  cursor: pointer;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
