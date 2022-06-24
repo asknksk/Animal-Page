@@ -1,13 +1,13 @@
 const imagesDiv = document.querySelector(".container");
 
 function playSound(soundobj) {
-  var thissound = document.querySelector(`.${soundobj}Sound`);
+  const thissound = document.querySelector(`.${soundobj}Sound`);
 
   thissound.play();
 }
 
 function stopSound(soundobj) {
-  var thissound = document.querySelector(`.${soundobj}Sound`);
+  const thissound = document.querySelector(`.${soundobj}Sound`);
   thissound.pause();
   thissound.currentTime = 0;
 }
