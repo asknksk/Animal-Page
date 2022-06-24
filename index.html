@@ -12,22 +12,52 @@
       <h1>Animals</h1>
     </header>
     <main class="container">
-      <div class="content"><img src="./img/kitten.jpg" alt="" /></div>
-      <div class="content"><img src="./img/crow.jpg" alt="" /></div>
-      <div class="content"><img src="./img/chicken.jpg" alt="" /></div>
-      <div class="content"><img src="./img/cow.jpg" alt="" /></div>
-      <div class="content"><img src="./img/dog.jpg" alt="" /></div>
-      <div class="content"><img src="./img/duck.jpg" alt="" /></div>
-      <div class="content"><img src="./img/frog.jpg" alt="" /></div>
-      <div class="content"><img src="./img/sheep.jpg" alt="" /></div>
+      <div class="content">
+        <img class="cat" src="./img/kitten.jpg" alt="" />
+      </div>
+      <div class="content">
+        <img class="crow" src="./img/crow.jpg" alt="" />
+      </div>
+      <div class="content">
+        <img class="chicken" src="./img/chicken.jpg" alt="" />
+      </div>
+      <div class="content"><img class="cow" src="./img/cow.jpg" alt="" /></div>
+      <div class="content"><img class="dog" src="./img/dog.jpg" alt="" /></div>
+      <div class="content">
+        <img class="duck" src="./img/duck.jpg" alt="" />
+      </div>
+      <div class="content">
+        <img class="frog" src="./img/frog.jpg" alt="" />
+      </div>
+      <div class="content">
+        <img class="sheep" src="./img/sheep.jpg" alt="" />
+      </div>
     </main>
-    <audio data-key="65" src="sounds/cat.wav"></audio>
-    <audio data-key="83" src="sounds/chicken.mp3"></audio>
-    <audio data-key="68" src="sounds/cow.wav"></audio>
-    <audio data-key="70" src="sounds/crow.wav"></audio>
-    <audio data-key="71" src="sounds/dog.wav"></audio>
-    <audio data-key="72" src="sounds/duck.mp3"></audio>
-    <audio data-key="74" src="sounds/frog.mp3"></audio>
-    <audio data-key="75" src="sounds/sheep.wav"></audio>
+    <audio class="catSound" loop>
+      <source src="sounds/cat.wav" type="audio/ogg" />
+    </audio>
+    <audio class="chickenSound" loop>
+      <source src="sounds/chicken.mp3" type="audio/ogg" />
+    </audio>
+    <audio class="cowSound" loop>
+      <source src="sounds/cow.wav" type="audio/ogg" />
+    </audio>
+    <audio class="crowSound" loop>
+      <source src="sounds/crow.wav" type="audio/ogg" />
+    </audio>
+    <audio class="dogSound" loop>
+      <source src="sounds/dog.wav" type="audio/ogg" />
+    </audio>
+    <audio class="duckSound" loop>
+      <source src="sounds/duck.mp3" type="audio/ogg" />
+    </audio>
+    <audio class="frogSound" loop>
+      <source src="sounds/frog.mp3" type="audio/ogg" />
+    </audio>
+    <audio class="sheepSound" loop>
+      <source src="sounds/sheep.wav" type="audio/ogg" />
+    </audio>
+
+    <script src="app.js"></script>
   </body>
 </html>

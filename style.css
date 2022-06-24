@@ -23,10 +23,14 @@ img {
   border-radius: 50%;
   border: 1rem solid rgb(45, 196, 223);
   cursor: pointer;
+  transition: all 1s;
+}
+img:hover {
+  transform: scale(1.2);
 }
 .content {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: auto;
+  /* overflow: auto; */
 }
