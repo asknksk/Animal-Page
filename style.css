@@ -32,5 +32,26 @@ img:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* overflow: auto; */
+}
+/* @media screen and (min-width: 550px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
+@media screen and (min-width: 769px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-device-width: 480px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
